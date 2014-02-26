@@ -32,3 +32,7 @@ def main(args: Array[String]) {
   println(s"blah is ${options.blah}")
 }
 ```
+
+## License
+
+[Apache 2 License](http://www.apache.org/licenses/LICENSE-2.0.html)
