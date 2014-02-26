@@ -18,7 +18,7 @@ Define your options class normally, extending `OptionsWithHelp`
 
 ```
 class MyOptions extends OptionsWithHelp {
-  @Option(name="--blah", aliases=Array("-b"), usage="some val", metaVar="BLAH"))
+  @Option(name="--blah", aliases=Array("-b"), usage="some val", metaVar="BLAH")
   var blah: Int = 0
 }
 ```
