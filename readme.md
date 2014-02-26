@@ -1,5 +1,7 @@
 # args4j-helpers
 
+[![Build Status](https://drone.io/github.com/ogrodnek/args4j-helpers/status.png)](https://drone.io/github.com/ogrodnek/args4j-helpers/latest)
+
 Simple helper for command-line parsing using [args4j](http://args4j.kohsuke.org/).
 
 Args4j is a fantastic parsing library, but there's typically a lot of boilerplate for dealing with printing usage and dealing with parse errors.
