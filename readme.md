@@ -1,6 +1,6 @@
 # args4j-helpers
 
-[![Build Status](https://drone.io/github.com/ogrodnek/args4j-helpers/status.png)](https://drone.io/github.com/ogrodnek/args4j-helpers/latest)
+[![Build Status](https://travis-ci.org/ogrodnek/args4j-helpers.svg?branch=master)](https://travis-ci.org/ogrodnek/args4j-helpers)
 
 Simple helper for command-line parsing using [args4j](http://args4j.kohsuke.org/).
 
