@@ -1,5 +1,8 @@
 {
   "lambci": {
-    "cmd": ". ~/init/java 1.8 && . ./init-sbt && sbt compile"
+    "cmd": ". ~/init/java 1.8 && . ./init-sbt && sbt compile",
+    "branches": {
+      "lamb": true
+    }
   }
 }
