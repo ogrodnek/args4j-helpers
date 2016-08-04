@@ -20,3 +20,9 @@ fi
 
 chmod u+x $SBT_HOME/bin/sbt
 export PATH=$SBT_HOME/bin:$PATH
+
+echo "ivy"
+ls -la ~/.ivy2
+
+echo "path"
+ls -la .
