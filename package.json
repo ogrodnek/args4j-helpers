@@ -1,5 +1,5 @@
 {
   "lambci": {
-    "cmd": ". ~/init/java 1.8 && ./build.sh"
+    "cmd": ". ~/init/java 1.8 && . ./init-sbt && sbt compile"
   }
 }
