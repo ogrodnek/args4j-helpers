@@ -3,10 +3,9 @@ set -x
 pip install --user awscli
 export PATH=$PATH:$HOME/.local/bin
 
-
 T=`mktemp /tmp/build-cache.XXXX`
 aws s3 cp s3://lambci-buildresults-cedw6hal5zcd/gh/ogrodnek/args4j-helpers/cache/build-cache.tar.gz $T --region us-east-1
 
-tar xvfz $T -C /
+tar xfz $T -C /
 
 find ~/.ivy2 -name *.lock | xargs rm -f
