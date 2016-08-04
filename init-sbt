@@ -16,5 +16,7 @@ java $SBT_OPTS -jar `dirname $0`/sbt-launch.jar "$@"
 
 EOF
 
+fi
+
 chmod u+x $SBT_HOME/bin/sbt
 export PATH=$SBT_HOME/bin:$PATH
