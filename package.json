@@ -4,6 +4,6 @@
     "branches": {
       "lamb": true
     },
-    "clearTmp": true,
+    "clearTmp": true
   }
 }
