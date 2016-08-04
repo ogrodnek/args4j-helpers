@@ -1,6 +1,6 @@
 {
   "lambci": {
-    "cmd": "pip install --user awscli && . ./cache_deps && . ~/init/java 1.8 && . ./init-sbt && sbt compile",
+    "cmd": "~/init/java 1.8 && . ./init-sbt && sbt compile && . ./cache_deps",
     "branches": {
       "lamb": true
     }
