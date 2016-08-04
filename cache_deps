@@ -1,0 +1,6 @@
+set -x
+
+T=`mktemp /tmp/build-cache.XXXX`
+tar cvfz $T ~/.ivy2
+
+aws s3 cp $T s3://lambci-buildresults-cedw6ha15zcd/gh/ogrodnek/args4j-helpers/cache/build-cache.tar.gz
