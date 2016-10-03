@@ -1,5 +1,7 @@
 set -x
 
+env
+
 pip install --user awscli
 export PATH=$PATH:$HOME/.local/bin
 
